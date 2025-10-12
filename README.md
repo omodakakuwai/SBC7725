@@ -19,7 +19,7 @@ CALL/RETURN are the instructions for HW stack and cannot be used for the SW stac
 
 The second idea is concerns what information to use as the JMP destination for psedo-CALL/RETURN. 
 Since the DSP only have an immediate JMP instruction, it cannot execute indirect JMP by specifying the next address of pseudo-CALL.
-Therefore, a set of immediate JMP instructions that specifies the next address of pseudo-CALL is prepared and a label value (0-63) indicating which JMP instruction should be selected from the set is PUSHed/POPed in pseudo-CALL/RETURN. A binary tree search is performed to select the JMP instruciton from the label value.
+Therefore, a set of immediate JMP instructions that specifies the next address of pseudo-CALL is prepared and a label value (0-63) indicating which JMP instruction should be selected from the set is PUSHed/POPed in pseudo-CALL/RETURN. A binary tree search is performed to select the JMP instruction from the label value.
 
 ![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725.jpg)
 ![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725_WRT77P25.jpg)
