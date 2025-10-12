@@ -15,7 +15,7 @@ VTL interpreter is also implemented based on several ideas.
 
 The first idea is the realization of call nesting. 
 Since the four-level HW stack in the DSP is insufficient to perform recursive processing using call nesting, VTL implements a SW stack in the internal RAM. 
-CALL/RETURN are the instructions for HW stack and cannot be used for the SW stack, therefore, pseudo-CALL/RETURN is implement using JMP instruction. When a pseudo-CALL is called, a return destination is PUSHed onto the SW stack and when a pseudo-RETURN is executed, it is POPed from the SW stack. These implementaions make call nesting possible. 
+CALL/RETURN are the instructions for HW stack and cannot be used for the SW stack, therefore, pseudo-CALL/RETURN are implemented using JMP instruction. When a pseudo-CALL is called, a return destination is PUSHed onto the SW stack and when a pseudo-RETURN is executed, it is POPed from the SW stack. These implementaions make call nesting possible. 
 
 The second idea is to identify the JMP destination in a psedo-return. 
 Since the DSP only have an immediate JMP instruction, it cannot execute indirect JMP based on the label value.
