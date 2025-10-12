@@ -1,5 +1,5 @@
 ## SBC7725
-The SBC7725 is a home-built single board computer equipped with NEC uPD77P25 DSP, capable of running home-built VTL interpreter.
+The SBC7725 is a home-built single board computer equipped with NEC uPD77P25 DSP in 1980s, capable of running home-built VTL interpreter.
 
 The SBC7725 has external devices (32k bytes SRAM, 8251 UART) that can be accessed from the DSP.
 
