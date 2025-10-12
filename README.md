@@ -14,7 +14,7 @@ The SBC7725 was developed using a universal board and is planned to be developed
 VTL interpreter is also implemented based on several ideas. 
 
 The first idea is the realization of call nesting. 
-Since the four-level HW stack in the DSP is insufficient to perform recursive processing using call nesting, VTL implements a SW stack in the intermal RAM. 
+Since the four-level HW stack in the DSP is insufficient to perform recursive processing using call nesting, VTL implements a SW stack in the internal RAM. 
 When a pseudo-call is called, a label value indicating the pseudo-call number is PUSHed onto the SW stack and when a pseudo-return is executed, the label value is POPed from the SW stack. 
 These implementaions make call nesting possible. 
 
