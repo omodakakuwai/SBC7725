@@ -19,7 +19,7 @@ When a pseudo-call is called, a label value indicating the pseudo-call number is
 These implementaions make call nesting possible. 
 
 The second idea is to identify the JMP destination in a psedo-return. 
-Since the DSP only have an immediate JMP instruction, it cannot execute indirect JMP using the label value.
+Since the DSP only have an immediate JMP instruction, it cannot execute indirect JMP based on the label value.
 Therefore, a binary tree search is performed based on the label value to find the corresponding JMP instruciton from a pre-defined set of immediate JMP insturions.
 
 ![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725.jpg)
