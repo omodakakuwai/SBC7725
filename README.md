@@ -11,5 +11,7 @@ A home-built 77P25 ROM writer (WRT77P25) is used to write VTL interpreter code i
 
 The SBC7725 was developed using a universal board and is planned to be developed using a printed circuit board.
 
+VTL interpreter is realized using several ideas. For example, since the four-level HW stack in the DSP is insufficient to realize recurcie processing in VTL, VTL implements a SW stack. Each time a pseudo-call is called, a label value indicating the pseudo-call number is PUSHed onto the SW stack, and when a pseudo-return is executed, the label value is POPed from the SW stack. Since DSP only have an immediate-value JMP instruction, it cannot execute indirect JMP using the label value. Therefore, a binary tree search is performed based on the label value to find the corresponding JMP instruciton from a pool of immediate-value JMP insturions.
+
 ![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725.jpg)
 ![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725_WRT77P25.jpg)
