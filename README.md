@@ -9,5 +9,7 @@ the RD# and WR# of the 7725 DSP are input signals from a external host and since
 
 A home-built 77P25 ROM writer (WRT77P25) is used to write VTL interpreter code into the instruction code area(2k words) of internal EPROM.
 
+The SBC7725 was developed using a universal board and is planned to be developed using a printed circuit board.
+
 ![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725.jpg)
 ![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725_WRT77P25.jpg)
