@@ -3,7 +3,7 @@ The SBC7725 is a home-built single board computer equipped with NEC uPD77P25 DSP
 
 The SBC7725 has external devices(SRAM,UART) that can be accessed from the DSP.
 
-Since the 7725 DSP does not have Address Bus required for external access, the SBC7725 is designed to output 8-bit high address, 8-bit low address and 8-bit data sequentially on 8bit Data Bus.
+Since the 7725 DSP does not have Address Bus required for external access, the SBC7725 is designed to output 8-bit high address, 8-bit low address and input/output 8-bit data sequentially on 8bit Data Bus.
 
 Also, the RD# and WR# of the 7725 DSP are input signal from external host and since these signals cannot be controlled by DSP itself, the SBC7725 uses port output P[1:0] to outputs status information(it indicates Address output, data output and data input), and the GAL generates RD# and WR# for the DSP and MRD# and MWR# for SRAM/UART based ont the status information.
 
