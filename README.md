@@ -3,7 +3,7 @@ The SBC7725 is a home-built single board computer equipped with NEC uPD77P25 DSP
 
 ![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725.jpg)
 
-The SBC7725 has external devices (32k bytes SRAM, 8251 UART) that can be accessed from the DSP.
+The SBC7725 has SRAM(32k bytes) and UART(8251) that can be accessed from the DSP.
 
 Since the 7725 DSP does not have Address Bus required for external access, the SBC7725 is designed to output 8-bit high address, 8-bit low address and input/output 8-bit data sequentially on 8bit Data Bus via DR register.
 
