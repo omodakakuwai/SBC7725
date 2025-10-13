@@ -13,4 +13,4 @@ A home-built 77P25 ROM writer (WRT77P25) is used to write VTL interpreter code i
 
 ![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725_WRT77P25.jpg)
 
-The SBC7725 was developed using a universal board and is planned to be developed using a printed circuit board.
+The SBC7725 is developed using a universal board and is planned to be developed using a printed circuit board.
