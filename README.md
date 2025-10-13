@@ -1,6 +1,8 @@
 ## SBC7725
 The SBC7725 is a home-built single board computer equipped with NEC uPD77P25 DSP in 80s, capable of running home-built VTL interpreter.
 
+![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725.jpg)
+
 The SBC7725 has external devices (32k bytes SRAM, 8251 UART) that can be accessed from the DSP.
 
 Since the 7725 DSP does not have Address Bus required for external access, the SBC7725 is designed to output 8-bit high address, 8-bit low address and input/output 8-bit data sequentially on 8bit Data Bus.
@@ -9,7 +11,6 @@ the RD# and WR# of the 7725 DSP are input signals from a external host and since
 
 A home-built 77P25 ROM writer (WRT77P25) is used to write VTL interpreter code into the instruction code area (2k words) of internal EPROM.
 
-The SBC7725 was developed using a universal board and is planned to be developed using a printed circuit board.
-
-![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725.jpg)
 ![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725_WRT77P25.jpg)
+
+The SBC7725 was developed using a universal board and is planned to be developed using a printed circuit board.
