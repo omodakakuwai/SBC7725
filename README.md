@@ -11,7 +11,7 @@ Since the 7725 DSP does not have Address Bus required for external access, the S
 the RD# and WR# of the 7725 DSP are input signals from a external host and since these signals cannot be controlled by DSP itself, the SBC7725 uses port output P[1:0] to output status information (it indicates address output, data output and data input), and the GAL22V10 generates RD# and WR# for the DSP and MRD# and MWR# for the SRAM/UART based on the status information.
 
 A home-built 77P25 ROM writer (WRT77P25) is used to write VTL interpreter code into the instruction code area (2k words) of internal EPROM.
-It consists of a newly developed mezzanine board for uPD77P25 and modified PIC firmware.
+It consists of an EMUZ80 main board and a newly developed mezzanine board for uPD77P25 and modified PIC firmware.
 
 This ROM writer is based on the WRT8749 ROM writer developed by vintagechips-san.
 https://github.com/vintagechips/wrt8749
