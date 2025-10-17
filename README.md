@@ -1,7 +1,7 @@
 ## SBC7725
 The SBC7725 is a home-built single board computer equipped with NEC uPD77P25 DSP in 80s, capable of running home-built VTL interpreter.
 
-![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725.jpg)
+![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725_PCB1.jpg)
 
 The SBC7725 has an SRAM(32k bytes) and an UART(8251) that can be accessed from the DSP.
 
