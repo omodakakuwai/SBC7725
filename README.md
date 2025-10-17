@@ -12,10 +12,10 @@ the RD# and WR# of the 7725 DSP are input signals from a external host and since
 
 A home-built 77P25 ROM writer (WRT77P25) is used to write VTL interpreter code into the instruction code area (2k words) of internal EPROM.
 
-This ROM writer is based on the WRT7849 ROM writer developed by vintagechips-san.
+This ROM writer is based on the WRT8749 ROM writer developed by vintagechips-san.
 https://github.com/vintagechips/wrt8749
 
 It consists of a newly developed mezzanine board for uPD77P25 and modified PIC firmware.
-I'm deeply grateful to vintagechips-san for making WRT7849 ROM writer available to the public.
+I'm deeply grateful to vintagechips-san for making WRT8749 ROM writer available to the public.
 
 ![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725_WRT77P25.jpg)
