@@ -15,6 +15,7 @@ It consists of an EMUZ80 main board and a newly developed mezzanine board for uP
 
 This ROM writer is based on the WRT8749 ROM writer developed by vintagechips-san.
 https://github.com/vintagechips/wrt8749
+
 I'm deeply grateful to vintagechips-san for making WRT8749 ROM writer available to the public.
 
 ![](https://github.com/omodakakuwai/SBC7725/blob/main/images/SBC7725_WRT77P25.jpg)
